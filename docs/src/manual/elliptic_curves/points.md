@@ -3,32 +3,8 @@ CurrentModule = Hecke
 CollapsedDocStrings = true
 DocTestSetup = Hecke.doctestsetup()
 ```
-# Basics
 
-## Creation
-
-```@docs
-elliptic_curve
-elliptic_curve_from_j_invariant
-```
-
-## Basic properties
-
-```@docs
-base_field(::EllipticCurve)
-base_change(::Field, ::EllipticCurve)
-base_change(::Any, ::EllipticCurve)
-coefficients(::EllipticCurve)
-a_invariants(::EllipticCurve)
-b_invariants(::EllipticCurve)
-c_invariants(::EllipticCurve)
-discriminant(::EllipticCurve)
-j_invariant(::EllipticCurve)
-equation(::EllipticCurve)
-hyperelliptic_polynomials(::EllipticCurve)
-```
-
-## Points
+# Points
 
 ```julia
     (E::EllipticCurve)(coords::Vector; check::Bool = true)

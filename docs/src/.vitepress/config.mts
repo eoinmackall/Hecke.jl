@@ -169,7 +169,10 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: 'Introduction', link: '/manual/elliptic_curves/intro'},
-                { text: 'Basics', link: '/manual/elliptic_curves/basics'},
+                { text: 'Elliptic curves', link: '/manual/elliptic_curves/curves'},
+                { text: 'Points', link: '/manual/elliptic_curves/points'},
+                { text: 'Torsion subgroups', link: '/manual/elliptic_curves/torsion'},
+                { text: 'Morphisms', link: '/manual/elliptic_curves/morphisms'},
                 { text: 'Finite fields', link: '/manual/elliptic_curves/finite_fields'},
                 { text: 'Number fields', link: '/manual/elliptic_curves/number_fields'},
               ]
